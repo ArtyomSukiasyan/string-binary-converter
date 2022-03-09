@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+.inputAreas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area-div {
+  padding: 8px;
+}
+
+textarea {
+  outline: none;
+  padding-left: 4px;
+  resize: none;
+}
+
+button {
+    background-color: #1a1146;
+    color: #fefefe;
+    border-radius: 8px;
+    padding: 4px;
+    cursor: pointer;
+}
